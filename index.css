@@ -1,0 +1,82 @@
+body {
+  background: blue;
+  color: white;
+  font-size: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  cursor: pointer;
+}
+
+.btn {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.midLogo {
+  display: flex;
+  justify-content: center;
+  /* align-items: center */
+  /* position: relative; */
+  width: 50px;
+  margin: 0 auto;
+}
+
+.mainLogo {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+.contentHeader {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.contentInner {
+  display: flex;
+  justify-content: center;
+  margin-left: 350px;
+  margin-right: 350px;
+  line-height: 30px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  margin-bottom: 50px;
+}
+
+.btnExplore {
+  padding: 20px;
+  background: white;
+  color: blue;
+  border-radius: 30px;
+  margin-left: 500px;
+  margin-right: 505px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.scroll {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  cursor: pointer;
+}
